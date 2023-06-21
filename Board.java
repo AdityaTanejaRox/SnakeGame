@@ -45,11 +45,11 @@ public class Board extends JPanel implements ActionListener {
         timer.start();
     }
     public void loadImages(){
-        ImageIcon bodyIcon=new ImageIcon("src/resources/dot.png");
+        ImageIcon bodyIcon=new ImageIcon("dot.png");
         body=bodyIcon.getImage();
-        ImageIcon headIcon=new ImageIcon("src/resources/head.png");
+        ImageIcon headIcon=new ImageIcon("head.png");
         head=headIcon.getImage();
-        ImageIcon appleIcon=new ImageIcon("src/resources/apple.png");
+        ImageIcon appleIcon=new ImageIcon("apple.png");
         apple=appleIcon.getImage();
     }
 
